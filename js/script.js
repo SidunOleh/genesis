@@ -46,6 +46,9 @@ if (phoneInput) {
 $(document).on('click', () => $('.menu-item').removeClass('open'))
 
 $('.menu-item span').click(function(e) {
+    if (e.target.tagName != 'SPAN') {
+        return
+    }
     e.preventDefault()
     e.stopPropagation()
     const menuItem = $(this).closest('.menu-item')
