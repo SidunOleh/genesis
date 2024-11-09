@@ -1481,6 +1481,7 @@ table {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 40px;
+  padding-left: 40px;
 }
 @media (max-width: 1024px) {
   .news__title {
