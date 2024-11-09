@@ -75,6 +75,11 @@ $('.menu-item').on('mouseleave', function(e) {
 
 $('.header__burger').click(() => {
     $('.header').toggleClass('open')
+
+    $('body').css('overflow', 'hidden')
 })
 
-$('.header .close').click(() => $('.header').removeClass('open'))
+$('.header .close').click(() => {
+    $('.header').removeClass('open')
+    $('body').css('overflow', 'auto')
+})
