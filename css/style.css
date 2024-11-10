@@ -162,7 +162,7 @@ table {
   }
 }
 .first .container {
-  max-width: 1171px !important;
+  max-width: 1235px !important;
 }
 .first__left {
   -webkit-box-flex: 1;
@@ -426,7 +426,7 @@ table {
   display: flex;
 }
 .newsFirst .container {
-  max-width: 1171px !important;
+  max-width: 1235px !important;
 }
 .newsFirst__left {
   -webkit-box-flex: 1;
@@ -613,7 +613,7 @@ table {
   }
 }
 .contactFirst .container {
-  max-width: 1171px !important;
+  max-width: 1235px !important;
 }
 .contactFirst__left {
   -webkit-box-flex: 1;
@@ -821,7 +821,7 @@ table {
   }
 }
 .homeFirst .container {
-  max-width: 1171px !important;
+  max-width: 1235px !important;
 }
 .homeFirst__left {
   -webkit-box-flex: 1;
